@@ -98,7 +98,7 @@ pip install -r monafit-tracker/backend/requirements.txt
 
 django-admin startproject monafit_tracker monafit-tracker/backend
 
-npx create-react-app monafit-tracker/frontend
+sudo apt-get update && sudo apt-get install -y mongodb
 
 npm install bootstrap monafit-tracker/frontend
 
